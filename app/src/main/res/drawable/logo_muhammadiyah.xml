@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background gradient -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startY="0"
+                android:startX="0"
+                android:endY="108"
+                android:endX="108"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF0B3954"/>
+                <item android:offset="1" android:color="#FF087E8B"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Book base -->
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M28,32L80,32A3,3 0,0 1,83 35L83,80A3,3 0,0 1,80 83L28,83A3,3 0,0 1,25 80L25,35A3,3 0,0 1,28 32z"/>
+
+    <!-- Book spine -->
+    <path
+        android:fillColor="#3CAEA3"
+        android:pathData="M54,32L54,83A0,0 0,0 1,54 83L54,83A0,0 0,0 1,54 83L54,32A0,0 0,0 1,54 32L54,32A0,0 0,0 1,54 32z"/>
+
+    <!-- Book pages left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M29,35L54,35A1,1 0,0 1,55 36L55,79A1,1 0,0 1,54 80L29,80A1,1 0,0 1,28 79L28,36A1,1 0,0 1,29 35z"/>
+
+    <!-- Book pages right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,35L79,35A1,1 0,0 1,80 36L80,79A1,1 0,0 1,79 80L54,80A1,1 0,0 1,53 79L53,36A1,1 0,0 1,54 35z"/>
+
+    <!-- Pencil -->
+    <path
+        android:fillColor="#FF5A5F"
+        android:pathData="M70,25L74,29L45,58L41,54L70,25Z"/>
+    
+    <!-- Pencil tip -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M41,54L37,62L45,58L41,54Z"/>
+
+    <!-- Pencil eraser -->
+    <path
+        android:fillColor="#F8F9FA"
+        android:pathData="M73.5,24.5L76.5,21.5A1.5,1.5 0,0 1,78.7 21.5L78.7,21.5A1.5,1.5 0,0 1,78.7 23.7L75.7,26.7A1.5,1.5 0,0 1,73.5 26.7L73.5,26.7A1.5,1.5 0,0 1,73.5 24.5z"/>
+
+    <!-- Text lines on left page -->
+    <path
+        android:fillColor="#3CAEA3"
+        android:pathData="M32,42h18v1h-18z"/>
+    <path
+        android:fillColor="#3CAEA3"
+        android:pathData="M32,48h18v1h-18z"/>
+    <path
+        android:fillColor="#3CAEA3"
+        android:pathData="M32,54h18v1h-18z"/>
+    <path
+        android:fillColor="#3CAEA3"
+        android:pathData="M32,60h18v1h-18z"/>
+    <path
+        android:fillColor="#3CAEA3"
+        android:pathData="M32,66h12v1h-12z"/>
+
+    <!-- Decorative element on right page -->
+    <path
+        android:fillColor="#0B3954"
+        android:strokeWidth="1"
+        android:strokeColor="#0B3954"
+        android:pathData="M60,45m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"/>
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M60,45m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+    <path
+        android:fillColor="#0B3954"
+        android:pathData="M57,45L63,45"/>
+    <path
+        android:fillColor="#0B3954"
+        android:pathData="M60,42L60,48"/>
+
+    <!-- Muhammadiyah text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,93L36,93L39,90L42,93L44,93L44,87L42,87L42,91L39,88L36,91L36,87L34,87L34,93Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,93L50,91L47,91L47,91L47,90L49,90L49,88L47,88L47,87L50,87L50,85L45,85L45,93L50,93Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,93L57,91L54,91L54,90L56,90L56,88L54,88L54,87L57,87L57,85L52,85L52,93L57,93Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,93L64,91L61,91L61,90L63,90L63,88L61,88L61,87L64,87L64,85L59,85L59,93L64,93Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71,93L71,91L68,91L68,90L70,90L70,88L68,88L68,87L71,87L71,85L66,85L66,93L71,93Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,93L78,91L75,91L75,90L77,90L77,88L75,88L75,87L78,87L78,85L73,85L73,93L78,93Z"/>
+</vector> 
