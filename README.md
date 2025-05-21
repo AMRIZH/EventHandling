@@ -1,6 +1,6 @@
 # SMA Muhammadiyah Extracurricular Registration App
 
-![App Preview](preview.png)
+![App Preview](./images/preview.png)
 
 ## Description
 This Android application was developed for SMA Muhammadiyah high school to streamline the registration process for extracurricular activities. Built with Jetpack Compose, the app offers a modern and intuitive interface for students to register for various extracurricular programs offered by the school.
